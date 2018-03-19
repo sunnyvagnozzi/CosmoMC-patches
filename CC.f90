@@ -1,4 +1,25 @@
-    ! Hubble measurement constraint, based on corresponding angular diamter distance value and error
+!------------------------------------------------------------------------------------------!
+! Module for CMB lensing convergence-galaxy angular cross-power spectrum (Clkg) likelihood !
+!                                                                                          !
+! Reads the Clkg measurements and inverse covariance matrix and calculates -Ln(Likelihood) !
+!                                                                                          !
+! Currently written for usage with the data of Pullen et al. 2016, in 21 multipole bins,   !
+! see Pullen et al., MNRAS 460 (2016) 4098-4108, but can easily be generalized             !
+! (Planck lensing cross SDSS-III BOSS DR11 CMASS)                                          !
+!                                                                                          !
+! Module written by Elena Giusarma and Sunny Vagnozzi 2017                                 !
+! Direct questions and report bugs to:                                                     !
+! -Elena Giusarma (egiusarma@lbl.gov) and                                                  !
+! -Sunny Vagnozzi (sunny.vagnozzi@fysik.su.se)                                             !
+!                                                                                          !
+! Based on earlier ISW likelihood code by Shirley Ho, terapix.phys.cmu.edu/ISW_WL.html     !
+! see Ho et al., Phys. Rev. D78 (2008) 043519                                              !
+!                                                                                          !
+!                                       v 1.0                                              !
+!                         Elena Giusarma and Sunny Vagnozzi                                !
+!                            Last modified on 20/04/2017                                   !
+!                                                                                          !
+!------------------------------------------------------------------------------------------!
 
   module CC
     use settings
