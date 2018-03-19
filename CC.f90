@@ -8,16 +8,11 @@
 ! (Planck lensing cross SDSS-III BOSS DR11 CMASS)                                          !
 !                                                                                          !
 ! Module written by Elena Giusarma and Sunny Vagnozzi 2017                                 !
-! Direct questions and report bugs to:                                                     !
-! -Elena Giusarma (egiusarma@lbl.gov) and                                                  !
-! -Sunny Vagnozzi (sunny.vagnozzi@fysik.su.se)                                             !
-!                                                                                          !
-! Based on earlier ISW likelihood code by Shirley Ho, terapix.phys.cmu.edu/ISW_WL.html     !
-! see Ho et al., Phys. Rev. D78 (2008) 043519                                              !
+! Direct questions and report bugs to Sunny Vagnozzi (sunny.vagnozzi@fysik.su.se)          !
 !                                                                                          !
 !                                       v 1.0                                              !
-!                         Elena Giusarma and Sunny Vagnozzi                                !
-!                            Last modified on 20/04/2017                                   !
+!                                  Sunny Vagnozzi                                          !
+!                            Last modified on 19/03/2018                                   !
 !                                                                                          !
 !------------------------------------------------------------------------------------------!
 
