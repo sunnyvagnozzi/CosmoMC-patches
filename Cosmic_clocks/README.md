@@ -8,10 +8,17 @@ This repository contains a patch to [CosmoMC](https://github.com/cmbant/CosmoMC/
 
 You should first make sure to have a working CosmoMC installation. Then, simply copy the content of the [source](https://github.com/sunnyvagnozzi/CosmoMC-patches/tree/master/Cosmic_clocks/source) repository into your CosmoMC/source folder.
 
-Alternatively (which you might want to do e.g. if you adding this patch on top of another CosmoMC patch, and thus have already modified your Makefile), you can choose to only copy [CC.f90](https://github.com/sunnyvagnozzi/CosmoMC-patches/blob/master/Cosmic_clocks/source/CC.f90). Then, you have to modify your CosmoMC/source/DataLikelihoods.f90 by adding the following two lines:
+Alternatively (which you might want to do e.g. if you adding this patch on top of another CosmoMC patch, and thus have already modified your Makefile), you can choose to only copy [CC.f90](https://github.com/sunnyvagnozzi/CosmoMC-patches/blob/master/Cosmic_clocks/source/CC.f90). Then, you have to modify your CosmoMC/source/DataLikelihoods.f90 by adding the following two lines (around lines 15 and 40):
 
     use CC
 and
 
     call CCLikelihood_Add(DataLikelihoods, Ini)
-Then, you 
+Then, you will also have to modify your Makefile by adding the following to lines (around lines 180 and 250):
+
+    DATAMODULES += $(OUTPUT_DIR)/CC.o
+and
+
+    $(OUTPUT_DIR)/CC.o: $(OUTPUT_DIR)/Calculator_CAMB.o $(OUTPUT_DIR)/Calculator_Cosmology.o $(OUTPUT_DIR)/CosmoTheory.o $(OUTPUT_DIR)/CosmologyTypes.o $(OUTPUT_DIR)/Likelihood_Cosmology.o
+
+When you've done that, just go back to your CosmoMC folder, type "Make", and you're good to go.
