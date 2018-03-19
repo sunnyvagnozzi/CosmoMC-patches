@@ -1,9 +1,10 @@
 !------------------------------------------------------------------------------------------!
 ! Module for cosmic chronometers (CC) likelihood                                           !
-! CC use the differential evolution of passive early-type galaxies to estimate H(z) at     !
-! various redshifts up to z~2 in a model-independent way                                   !
 !                                                                                          !
-! Reads the CC redshifts, measurements, and error bars, and calculates -Ln(Likelihood)     !
+! CC use the differential evolution of passive early-type galaxies to estimate H(z) at     !
+! various redshifts up to z~2 in a model-independent way: H(z)=-1/(1+z)dz/dt               !
+! See Jimenez & Loeb, Constraining cosmological parameters based on relative galaxy ages,  !
+! Astrophys.J. 573 (2002) 37-42 [arXiv: astro-ph/0106145]                                  !
 !                                                                                          !
 ! Currently written for being used with the compilation of 30 measurements of H(z) from    !
 ! Moresco et al., A 6% measurements of the Hubble parameter at z~0.45: direct evidence     !
@@ -13,10 +14,10 @@
 ! Module written by Sunny Vagnozzi 2018                                                    !
 ! Direct questions and report bugs to Sunny Vagnozzi (sunny.vagnozzi@fysik.su.se)          !
 !                                                                                          !
+!                                                                                          !
 !                                       v 1.0                                              !
 !                                  Sunny Vagnozzi                                          !
-!                            Last modified on 19/03/2018                                   !
-!                                                                                          !
+!                            Last modified on 19/03/2018                                   !                                                                                       !
 !------------------------------------------------------------------------------------------!
 
   module CC
