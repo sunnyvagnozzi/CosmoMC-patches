@@ -37,8 +37,6 @@
 
     call SZLikelihood_Add(DataLikelihoods, Ini) !Anna
 
-    call ClkgLikelihood_Add(DataLikelihoods, Ini) !Sunny
-
     call CCLikelihood_Add(DataLikelihoods, Ini)
 
     call WLLikelihood_Add(DataLikelihoods, Ini)
