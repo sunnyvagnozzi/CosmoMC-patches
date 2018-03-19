@@ -62,8 +62,8 @@ If you experience any problems with the codes, or to report bugs, please email [
 This research was supported by:
 
    <a href="http://www.okc.albanova.se/"><img src="http://www.okc.albanova.se/polopoly_fs/1.327382.1491483655!/image/image.jpg_gen/derivatives/logotype_h130/image.jpg"
-height="100px"></a>
+height="200px"></a>
    <a href="https://www.su.se/"><img src="http://resources.mynewsdesk.com/image/upload/t_open_graph_image/ayjgabd4qxqbpj4pu4nl.jpg"
-height="100px"></a>
+height="200px"></a>
       <a href="https://www.nordita.org/"><img src="https://yt3.ggpht.com/a-/AJLlDp3bQ-UG2qVRBjqfsEbsUaDs_fd8yBPkMnPCXg=s900-mo-c-c0xffffffff-rj-k-no"
-height="100px"></a>
+height="200px"></a>
