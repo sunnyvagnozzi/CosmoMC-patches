@@ -98,7 +98,6 @@
    close(9)
 
    write(*,*) "Read cosmic chonometers data"
-!   write(*,*) "Ninth redshift, ninth H, ninth error", CCset%CCred(8), CCset%CCmeas(8), CCset%CCerr(8)
 
  end subroutine ReadCCdata
 
@@ -120,8 +119,6 @@
        meas = CCset%CCmeas(j)
        err = CCset%CCerr(j)
        teo = this%Calculator%Hofz_Hunit(red)
-!       write(*,*) "theory=", teo
-!       write(*,*) "measurement=", meas
        chisq = chisq + ((teo-meas)**(2.0))/(err**(2.0))
     enddo
 
