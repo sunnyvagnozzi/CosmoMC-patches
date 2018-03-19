@@ -33,7 +33,7 @@ to your top-level configuration file.
 
 If you use these codes in your research, please cite the following papers:
 
-A. Lewis and S. Bridle, [Cosmological parameters from CMB and other data: a Monte-Carlo approach](https://inspirehep.net/record/590144), [Phys. Rev. D66 (2002) 103511](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.66.103511) [[arXiv: astro-ph/0205436](https://arxiv.org/abs/astro-ph/0205436)]
+A. Lewis and S. Bridle, [Cosmological parameters from CMB and other data: a Monte-Carlo approach](https://inspirehep.net/record/590144), [Phys. Rev. D66 (2002) 103511](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.66.103511) [[arXiv: astro-ph/0205436](https://arxiv.org/abs/astro-ph/0205436)] (original CosmoMC paper)
 
 # Support
 
