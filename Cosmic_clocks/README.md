@@ -21,4 +21,7 @@ and
 
     $(OUTPUT_DIR)/CC.o: $(OUTPUT_DIR)/Calculator_CAMB.o $(OUTPUT_DIR)/Calculator_Cosmology.o $(OUTPUT_DIR)/CosmoTheory.o $(OUTPUT_DIR)/CosmologyTypes.o $(OUTPUT_DIR)/Likelihood_Cosmology.o
 
-When you've done that, just go back to your CosmoMC folder, type "Make", and you're good to go.
+
+Next, you should copy the content of the [batch2](https://github.com/sunnyvagnozzi/CosmoMC-patches/tree/master/Cosmic_clocks/batch2) repository to your CosmoMC/data folder, and similarly for the [data](https://github.com/sunnyvagnozzi/CosmoMC-patches/tree/master/Cosmic_clocks/data) repository.
+
+Once you've done all this, you can go back to your CosmoMC folder, type "Make", and you're good to go.
