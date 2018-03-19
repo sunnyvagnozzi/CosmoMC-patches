@@ -41,6 +41,14 @@ A. Lewis and S. Bridle, [Cosmological parameters from CMB and other data: a Mont
 
 R. Jimenez and A. Loeb, [Constraining cosmological parameters based on relative galaxy ages](https://inspirehep.net/record/559474), [Astrophys.J. 573 (2002) 37-42](http://iopscience.iop.org/article/10.1086/340549/meta) [[arXiv: astro-ph/0106145](https://arxiv.org/abs/astro-ph/0106145)] (original cosmic clocks paper)
 
+M. Moresco *et al.*, [Improved constraints on the expansion rate of the Universe up to z~1.1 from the spectroscopic evolution of cosmic chronometers](http://inspirehep.net/record/1085026), [JCAP 1208 (2012) 006](http://iopscience.iop.org/article/10.1088/1475-7516/2012/08/006) [[arXiv: 1201.3609](https://arxiv.org/abs/1201.3609)]
+
+M. Moresco, L. Verde, L. Pozzetti, R. Jimemez, A. Cimatti, [New constraints on cosmological parameters and neutrino properties using the expansion rate of the Universe to z~1.75](https://inspirehep.net/record/1086861), [JCAP 1207 (2012) 053](http://iopscience.iop.org/article/10.1088/1475-7516/2012/07/053) [[arXiv: 1201.6658](https://arxiv.org/abs/1201.6658)]
+
+M. Moresco, [Raising the bar: new constraints on the Hubble parameter with cosmic chronometers at z∼2](https://inspirehep.net/record/1347218), [Mon.Not.Roy.Astron.Soc. 450 (2015) no.1, L16-L20](https://academic.oup.com/mnrasl/article-abstract/450/1/L16/985597) [[arXiv: 1503.01116](https://arxiv.org/abs/1503.01116)]
+
+M. Moresco *et al.*, [A 6% measurement of the Hubble parameter at z∼0.45: direct evidence of the epoch of cosmic re-acceleration](https://inspirehep.net/record/1414580), [JCAP 1605 (2016) no.05, 014](http://iopscience.iop.org/article/10.1088/1475-7516/2016/05/014) [[arXiv: 1601.01701](https://arxiv.org/abs/1601.01701)]
+
 # Support
 
 If you experience any problems with the codes, or to report bugs, please email [sunny.vagnozzi@fysik.su.se](mailto:sunny.vagnozzi@fysik.su.se) (unless you're a robot, of course)
