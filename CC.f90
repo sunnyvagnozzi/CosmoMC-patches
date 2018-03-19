@@ -1,13 +1,16 @@
 !------------------------------------------------------------------------------------------!
-! Module for CMB lensing convergence-galaxy angular cross-power spectrum (Clkg) likelihood !
+! Module for cosmic chronometers (CC) likelihood                                           !
+! CC use the differential evolution of passive early-type galaxies to estimate H(z) at     !
+! various redshifts up to z~2 in a model-independent way                                   !
 !                                                                                          !
-! Reads the Clkg measurements and inverse covariance matrix and calculates -Ln(Likelihood) !
+! Reads the CC redshifts, measurements, and error bars, and calculates -Ln(Likelihood)     !
 !                                                                                          !
-! Currently written for usage with the data of Pullen et al. 2016, in 21 multipole bins,   !
-! see Pullen et al., MNRAS 460 (2016) 4098-4108, but can easily be generalized             !
-! (Planck lensing cross SDSS-III BOSS DR11 CMASS)                                          !
+! Currently written for being used with the compilation of 30 measurements of H(z) from    !
+! Moresco et al., A 6% measurements of the Hubble parameter at z~0.45: direct evidence     !
+! of the epoch of cosmic re-acceleration, JCAP 1605 (2016) no.05, 014 [arXiv: 1601.01701]  !
+! Can be easily modified to use a different sample, see the README for more instructions   !
 !                                                                                          !
-! Module written by Elena Giusarma and Sunny Vagnozzi 2017                                 !
+! Module written by Sunny Vagnozzi 2018                                                    !
 ! Direct questions and report bugs to Sunny Vagnozzi (sunny.vagnozzi@fysik.su.se)          !
 !                                                                                          !
 !                                       v 1.0                                              !
