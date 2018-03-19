@@ -1,5 +1,5 @@
 !------------------------------------------------------------------------------------------!
-! Module for cosmic chronometers (CC) likelihood                                           !
+! Module for cosmic clocks (CC) likelihood                                                 !
 !                                                                                          !
 ! CC use the differential evolution of passive early-type galaxies to estimate H(z) at     !
 ! various redshifts up to z~2 in a model-independent way: H(z)=-1/(1+z)dz/dt               !
