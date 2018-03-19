@@ -24,4 +24,30 @@ and
 
 Next, you should copy the content of the [batch2](https://github.com/sunnyvagnozzi/CosmoMC-patches/tree/master/Cosmic_clocks/batch2) repository to your CosmoMC/data folder, and similarly for the [data](https://github.com/sunnyvagnozzi/CosmoMC-patches/tree/master/Cosmic_clocks/data) repository.
 
-Once you've done all this, you can go back to your CosmoMC folder, type "Make", and you're good to go.
+Once you've done all this, you can go back to your CosmoMC folder, type "Make", and you're good to go. Note that this will create an executable called *cosmomc_cc* (in order not to confuse it with other executables), but you can override this modifying line 301 of source/Makefile. To include the CC likelihood in your analysis, simply add:
+
+    DEFAULT(batch2/CC.ini)
+to your top-level configuration file.
+
+## References
+
+If you use these codes in your research, please cite the following papers:
+
+A. Lewis and S. Bridle, [Cosmological parameters from CMB and other data: a Monte-Carlo approach](https://inspirehep.net/record/590144), [Phys. Rev. D66 (2002) 103511](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.66.103511) [[arXiv: astro-ph/0205436](https://arxiv.org/abs/astro-ph/0205436)]
+
+# Support
+
+If you experience any problems with the codes, or to report bugs, please email [sunny.vagnozzi@fysik.su.se](mailto:sunny.vagnozzi@fysik.su.se) (unless you're a robot, of course)
+
+************************************************************************************************
+
+This research was supported by:
+
+   <a href="http://www.okc.albanova.se/"><img src="http://www.okc.albanova.se/polopoly_fs/1.327382.1491483655!/image/image.jpg_gen/derivatives/logotype_h130/image.jpg"
+height="100px"></a>
+   <a href="https://www.su.se/"><img src="http://resources.mynewsdesk.com/image/upload/t_open_graph_image/ayjgabd4qxqbpj4pu4nl.jpg"
+height="100px"></a>
+      <a href="https://www.nordita.org/"><img src="https://yt3.ggpht.com/a-/AJLlDp3bQ-UG2qVRBjqfsEbsUaDs_fd8yBPkMnPCXg=s900-mo-c-c0xffffffff-rj-k-no"
+height="100px"></a>
+   <a href="http://www.ceico.cz/"><img src="https://academicpositions.eu/uploads/46e/083/46e083d07d2516e6b22c300bfe4731ac.jpeg" height="100px"></a>
+   <a href="https://www.fzu.cz/"><img src="https://www.fzu.cz/sites/default/files/logo-FZU-velke_1000x600px.jpg" height="100px"></a>
