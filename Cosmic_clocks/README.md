@@ -1,1 +1,1 @@
-# Cosmic chronometers
+# Cosmic clocks
