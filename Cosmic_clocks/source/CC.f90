@@ -1,5 +1,4 @@
 !------------------------------------------------------------------------------------------!
-!                                                                                          !
 ! Module for cosmic clocks (CC) likelihood                                                 !
 !                                                                                          !
 ! CC use the differential evolution of passive early-type galaxies to estimate H(z) at     !
@@ -19,7 +18,6 @@
 !                                       v 1.0                                              !
 !                                  Sunny Vagnozzi                                          !
 !                            Last modified on 19/03/2018                                   !
-!                                                                                          !
 !------------------------------------------------------------------------------------------!
 
   module CC
